@@ -34,7 +34,7 @@ const Header = () => {
               Sign In
             </button>
             
-            <button
+            {/* <button
               type="button"
               className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 "
               onClick={toggleMenu}
@@ -57,7 +57,7 @@ const Header = () => {
                   d="M1 1h15M1 7h15M1 13h15"
                 />
               </svg>
-            </button>
+            </button> */}
           </div>
           
           {/* Desktop Menu */}

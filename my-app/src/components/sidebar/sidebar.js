@@ -4,7 +4,7 @@ const Sidebar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div class=" items-center">
+    <div class="hidden md:block items-center">
       <div class=" items-center space-y-10 ">
         <div class="p-5 flex gap-2 group text-blue-600">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-7 w-7 cursor-pointer">
