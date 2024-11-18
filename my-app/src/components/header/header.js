@@ -16,13 +16,13 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div class="header">
       <nav className="bg-white border-gray-200 ">
         <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src={headerimg} className="h-8" alt="Header Icon"/>
+          <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse ">
+            <img src={headerimg} className=" rounded-full" alt="Header Icon"/>
             <span className="self-center text-2xl font-semibold ">
-              Flowbite
+              Metal
             </span>
           </a>
           <div class="flex justify-between items-center gap-12">

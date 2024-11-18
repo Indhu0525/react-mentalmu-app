@@ -2,17 +2,17 @@ import React from 'react';
 import MainContent from './components/maincontent/maincontent';
 import Sidebar from './components/sidebar/sidebar';
 import Header from './components/header/header';
-import './output.css';
+import './index.css';
+import 'flowbite';
 function App() {
   return (
-    <div>
+    <div class="h-screen">
       
 
       <Header />
-    <div className="App flex">
-    
+    <div className="App flex main">
        <Sidebar />
-      {/* <MainContent />  */}
+      <MainContent /> 
        
     </div>
     </div>

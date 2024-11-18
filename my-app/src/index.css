@@ -15,3 +15,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bg{
+  /* background: linear-gradient(90deg, rgba(196,246,249,1) 4%, rgba(242,222,241,1) 24%, rgba(204,235,255,1) 44%, rgba(222,194,244,1) 76%, rgba(177,232,244,1) 100%); */
+  background-color: #dfecf2;
+}
+.header{
+  height: calc(100vh - 90%);
+}
+.main{
+  height: calc(100vh - 10%);
+}
+.current{
+ background-color: red;
+}
