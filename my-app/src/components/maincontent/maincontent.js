@@ -1,5 +1,6 @@
 import React from 'react';
 import RevenueChart from './chart';
+import ApexChart from './chart2';
 import logo from '../maincontent/assets/logo.png';
 
 const maincontent = () => {
@@ -68,7 +69,7 @@ const maincontent = () => {
                             </div>
 
                             <div class="relative h-48 overflow-auto">
-                                <RevenueChart />
+                                <ApexChart />
                             </div>
                         </div>
                     </div>
