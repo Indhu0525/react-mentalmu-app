@@ -12,7 +12,7 @@ const Sidebar = () => {
           </svg>
         </div>
 
-        <div class="space-y-48 rounded-md">
+        <div class=" rounded-md">
           <ul>
             <li class="p-5 flex gap-2 group items-center">
               <svg
