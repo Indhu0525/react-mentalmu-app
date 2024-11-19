@@ -3,9 +3,9 @@ import React from 'react';
 const Sidebar = () => {
   return (
     <div className="hidden md:block">
-      {/* Parent container with fixed width that expands on hover */}
+   
       <div className="w-16 hover:w-40 transition-[width] duration-500 ease-in-out h-full">
-        {/* Inner container that holds all content */}
+
         <div className="flex flex-col justify-between h-full space-y-5">
           <div className="bg-[#e6f1f8] rounded-xl p-3 justify-start flex gap-2 items-center mx-2">
             <svg
