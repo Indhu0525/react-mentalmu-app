@@ -20,10 +20,10 @@ code {
   background-color: #dfecf2;
 }
 .header{
-  height: calc(100vh - 93%);
+  height: calc(100vh - 90%);
 }
 .main{
-  height: calc(100vh - 7%);
+  height: calc(100vh - 10%);
 }
 .current{
  background-color: red;
